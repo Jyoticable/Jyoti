@@ -30,8 +30,22 @@
       "react-app/jest"
     ],
     "rules": {
-      
-    }
+      // Add specific ESLint rules as needed
+    },
+    "overrides": [
+      {
+        "files": ["*.js", "*.jsx"],
+        "rules": {
+          // Specify ESLint rules for JavaScript files
+        }
+      },
+      {
+        "files": ["*.ts", "*.tsx"],
+        "rules": {
+          // Specify ESLint rules for TypeScript files
+        }
+      }
+    ]
   },
   "browserslist": {
     "production": [
