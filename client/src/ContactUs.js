@@ -4,7 +4,11 @@ import BannerImage from './BannerImage.js'
 import ContactForm from './ContactForm.js'
 function ContactUs() {
   return (
+<<<<<<< HEAD
     <div className='page-width' style={{
+=======
+    <div className='page-width' style={{"margin-top":"50px",
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
     "margin-bottom":"100px"}}>
 <BannerImage desktopImage="./images/contact-banner.svg" heading="Contact us" color="#E4F5FD"/>
 

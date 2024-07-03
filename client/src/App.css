@@ -24,6 +24,7 @@ button , a , li{
 .App {
   font-family: inter !important;
   overflow-x:hidden;
+<<<<<<< HEAD
   /* display: flex;
     flex-direction: column; */
     /* justify-content: center; */
@@ -35,6 +36,13 @@ button , a , li{
 /* main-slider css */
 .main-slider-box {
   /* margin-top:120px; */
+=======
+}
+
+/* main-slider css */
+.main-slider-box {
+  margin-top: 25px;
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 
 .slider-card {
@@ -46,7 +54,10 @@ button , a , li{
   background: #D82927;
   border-radius: 30px;
   justify-content: center;
+<<<<<<< HEAD
   margin-top: 120px !important;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 
 .slider-content-box {
@@ -116,7 +127,10 @@ button , a , li{
   padding: 0;
   margin: 0;
   border-radius: 0px 30px 30px 0px;
+<<<<<<< HEAD
   margin-left: 1px;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 
 
@@ -148,7 +162,10 @@ button , a , li{
   .slider-image-box img {
     border-radius: 30px 30px 0px 0px;
     height:300px;
+<<<<<<< HEAD
     margin-left: 0px;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
 }
 
@@ -177,6 +194,7 @@ text-transform: uppercase;
   border-bottom: 4px solid #D82927;
   border-radius: 10px;
 }
+<<<<<<< HEAD
 
 
 .home-see-more-btn{
@@ -207,6 +225,9 @@ text-transform: uppercase;
 
 
 
+=======
+/* 
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 /* //left-imageright-text css */
 .left-text-right-image-main {
   display: grid;
@@ -424,7 +445,10 @@ text-transform: uppercase;
   .card-container-left img {
     width: 300px;
     height: 270px;
+<<<<<<< HEAD
     margin: auto;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
   .card-container-left{
     width: 280px;
@@ -452,9 +476,14 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column-reverse;
     gap: 40px !important;
+<<<<<<< HEAD
     padding-left:0px !important;
     padding-top:20px !important;
     padding-right:0px !important;
+=======
+    padding-left:0px !important
+    
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
 }
 .about-us-quality-ul{
@@ -686,7 +715,10 @@ text-transform: uppercase;
 .prd-description-overlay p {
   font-size: 15px;
   padding-top: 10px;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 
 .prd-card img {
@@ -826,7 +858,11 @@ font-weight: 600;
 }
 @media screen and (max-width:756px){
   .catalouges-heading h3{
+<<<<<<< HEAD
     font-size:28px;
+=======
+    font-size:32px;
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
   .ctlg-card-wrapper h3{
     font-size:18px;
@@ -884,10 +920,14 @@ font-weight: 600;
 .slick-dots {
   bottom: 4% !important;
 }
+<<<<<<< HEAD
 .slick-prev,
 .slick-next{
   top:60% !important;
 }
+=======
+
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 .slick-dots li button:before {
   font-size: 12px !important;
 }
@@ -1021,9 +1061,13 @@ textarea{
     grid-template-columns: 1fr;
   }
   .cont-us-details h2,.main-form h2{
+<<<<<<< HEAD
     font-size:28px ;
     padding-top:35px;
     padding-bottom:10px;
+=======
+    font-size:32px ;
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
 }
 

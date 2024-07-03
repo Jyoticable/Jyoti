@@ -4,7 +4,11 @@ import './AboutUs.css'
 function AboutUs() {
   
   return (
+<<<<<<< HEAD
     <div className='about-us-main'  >
+=======
+    <div className='about-us-main' style={{"margin-top":"50px"}} >
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 <div className='page-width'>
       <MainSliderCard heading="COMPANY PROFILE" subheading="Stanley FR-FRLS PVC Insulated Cables have built trust among many houses and corporate buildings since 1980. In the last 43 years, Stanley has stayed firm in its mission to provide fire-proof and PVC-equipped wires to build a safer world for people." buttonTxt="READ MORE" buttonLink="#l-i-r-t-a-u" image="./images/About Stanley Banner.jpg"/>
 

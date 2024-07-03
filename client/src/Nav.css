@@ -1,4 +1,5 @@
 .Navbar-jc{
+<<<<<<< HEAD
     position: fixed;
     width: 100%;
     z-index: 9999999;
@@ -6,6 +7,11 @@
     display: flex;
     justify-content: space-between;
     /* max-width: 1200px; */
+=======
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
     align-items: center;
     margin: 0 auto !important;
     padding:0 2rem;
@@ -61,7 +67,10 @@
 }
 .nav-link-box{
     width:100%;
+<<<<<<< HEAD
     padding-top: 15px;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 .nav-link-ul{
     display: flex;
@@ -126,6 +135,7 @@
 .drawer.open {
     transform: translateX(0);
     z-index:10;
+<<<<<<< HEAD
     padding-top: 35px;
 }
 .nav-wrapper{
@@ -135,6 +145,8 @@
     max-width: 1200px;
     width: 100%;
     margin: auto;
+=======
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 .nav-link-ul-mobile{
     display: flex;
@@ -153,10 +165,14 @@
 .hamburger-x{
     float: right;
     margin: 10px;
+<<<<<<< HEAD
     font-size: 18px;
 }
 .hamburger-x img{
     width: 20px;
+=======
+    font-size: 25px;
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 }
 
 .active-dropdown{

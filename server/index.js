@@ -5,10 +5,17 @@ const cors = require('cors')
 require('dotenv').config(); 
 
 const app = express();
+<<<<<<< HEAD
 const port = 4800;
 
 app.use(cors({
     origin: ["http://localhost:4801"],
+=======
+const port = 3000;
+
+app.use(cors({
+    origin: ["http://localhost:3001"],
+>>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
     credentials: true
 })) 
 
