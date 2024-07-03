@@ -1,10 +1,6 @@
 .banner_image{
     width: 100%;
     height: 500px;
-<<<<<<< HEAD
-    margin-top: 120px;;
-=======
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
   .banner_image img{
     
@@ -17,25 +13,10 @@
   @media screen and (max-width:750px){
     .desktop_image{display:none;}
     .mobile_image{display:block;}
-<<<<<<< HEAD
-    .banner_image{height: 300px;background-position: left !important;}
-    
-  }
-  
-  .mission_images{
-    border-radius: 40px;
-    height: 500px;
-    margin: 20px 0px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-=======
     .banner_image{height: 350px;}
   }
   
   
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   .heading-subheading-image-desc{
     padding: 40px 0px;
   }
@@ -43,15 +24,6 @@
     .heading-subheading-image-desc{
     padding:30px 0px 15px 0px ;
     }
-<<<<<<< HEAD
-      .heading-subheading-image-desc img{
-          border-radius:0px;
-      }
-      .mission_images{
-        height: 200px;
-      }
-=======
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
   }
   .heading-subheading-image-desc h3{
     font-size: 32px;
@@ -104,8 +76,4 @@
       max-width:100%;
       padding-left:0;
     }
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e

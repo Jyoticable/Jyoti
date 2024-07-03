@@ -1,19 +1,6 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-<<<<<<< HEAD
-import { useNavigate } from 'react-router-dom';
 function HeadingWithPrdCard() {
-    const navigate = useNavigate();
-    const navigateTo = (path) => {
-        navigate(path);
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
-=======
-function HeadingWithPrdCard() {
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
     return (
         <div className='page-width ' data-aos="fade-up">
             
@@ -26,15 +13,6 @@ function HeadingWithPrdCard() {
                     ))}
                 </div>
 
-<<<<<<< HEAD
-                <button onClick={() => navigateTo('/product-line')} class="home-see-more-btn">
-                    <a>
-                        SEE MORE
-                    </a>
-                </button>
-=======
-
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
             </div>
 
 

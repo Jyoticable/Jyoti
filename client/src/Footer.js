@@ -38,11 +38,7 @@ function Footer() {
 
             <div className='contact-us-box'>
                 <h3>CONTACT US</h3>
-<<<<<<< HEAD
-                <p><i class="fa-regular fa-envelope"></i>jyoticables7@gamil.com</p>
-=======
                 <p><i class="fa-regular fa-envelope"></i>stanley@gmail.com</p>
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
                 <p><i class="fa-solid fa-phone"></i>+91-9810399052 / 9810012942</p>
                 <p><i class="fa-solid fa-location-dot"></i>Registered and Corporate Office <br></br> B-46/1, 1st 2nd & 3rd Floor, Jhilmil Industrial Area, Shahdara, Delhi-110095
 

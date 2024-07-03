@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React, { useState,useEffect } from 'react';
-=======
 import React, { useState } from 'react';
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
 import './Nav.css';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 
@@ -21,14 +17,6 @@ function Nav() {
     const toggleDrawer = () => {
         setDrawerOpen(!drawerOpen);
     };
-<<<<<<< HEAD
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [location]);
-    
-=======
-
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
     const toggleDropdown = (dropdownName) => {
         setDropdownActive(prev => prev === dropdownName ? '' : dropdownName);
     };
@@ -47,10 +35,6 @@ function Nav() {
 
     return (
         <nav className="Navbar-jc">
-<<<<<<< HEAD
-        <div className='nav-wrapper'>  
-=======
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
             <div className="logo-box" onClick={() => navigateTo('/')}>
                 <img src="./images/footer-logo.png" alt="logo" />
             </div>
@@ -59,13 +43,7 @@ function Nav() {
             </div>
             <div className={`drawer ${drawerOpen ? 'open' : ''}`}>
                 <div className="hamburger-x" onClick={toggleDrawer}>
-<<<<<<< HEAD
-                    {/* <i className="fa fa-x"></i> */}
-                    <img src="./images/wrong.png" />
-
-=======
                     <i className="fa fa-x"></i>
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
                 </div>
                 <ul className="nav-link-ul-mobile">
                     <li><NavLink to="/" className={({ isActive }) => isActive ? 'nav-link-li active' : 'nav-link-li'} onClick={toggleDrawer}>Home</NavLink></li>
@@ -124,10 +102,6 @@ function Nav() {
                     <li><NavLink to="/contact-us" className={({ isActive }) => isActive ? 'nav-link-li active' : 'nav-link-li'}>Contact Us</NavLink></li>
                 </ul>
             </div>
-<<<<<<< HEAD
-            </div>
-=======
->>>>>>> 66135bbf1668af3b61e6f0900e54b6bd38ecde0e
         </nav>
     );
 }
