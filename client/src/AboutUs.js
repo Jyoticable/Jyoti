@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className='about-us-main' style={{"margin-top":"50px"}} >
 <div className='page-width'>
-      <MainSliderCard heading="COMPANY PROFILE" subheading="Stanley FR-FRLS PVC Insulated Cables have built trust among many houses and corporate buildings since 1980. In the last 43 years, Stanley has stayed firm in its mission to provide fire-proof and PVC-equipped wires to build a safer world for people." buttonTxt="READ MORE" buttonLink="#l-i-r-t-a-u" image="./images/About Stanley Banner.jpg"/>
+      <MainSliderCard heading="COMPANY PROFILE" subheading="Stanley FR-FRLS PVC Insulated Cables have built trust among many houses and corporate buildings since 1980. In the last 43 years, Stanley has stayed firm in its mission to provide fire-proof and PVC-equipped wires to build a safer world for people." buttonTxt="READ MORE" buttonLink="#l-i-r-t-a-u" image="./images/medium-shot-smiley-man-wearing-helmet.webp"/>
 
       </div>
       <div className="left-text-right-image-main page-width" data-aos="fade-right" id="l-i-r-t-a-u">
@@ -69,7 +69,7 @@ Every effort is made to achieve and maintain effective two-way communication at 
         <div className="left-person-right-heading-subheading page-width" data-aos="fade-right">
             <div className='person-with-name'>
                 <img src="./images/person.png" alt="person_image"/>
-                <h3 className='person-name'>Sunil Agrawal</h3>
+                <h3 className='person-name'>Sunil Aggarwal</h3>
                 <h4 className='person-position'>Executive Director</h4>
             </div>
 
@@ -90,7 +90,7 @@ Comprises
         <div className="right-person-left-heading-subheading page-width" data-aos="fade-left">
             <div className='person-with-name'>
                 <img src="./images/person.png" alt="person_image"/>
-                <h3 className='person-name'>Sunil Agrawal</h3>
+                <h3 className='person-name'>Sunil Aggarwal</h3>
                 <h4 className='person-position'>Executive Director</h4>
             </div>
 
