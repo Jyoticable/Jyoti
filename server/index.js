@@ -8,8 +8,8 @@ const app = express();
 const port = 4800;
 
 app.use(cors({
-    origin: ["http://localhost:4801"],
-    credentials: true
+    origin: ["https://jyoticables.in"],
+    credentials: false
 })) 
 
 
