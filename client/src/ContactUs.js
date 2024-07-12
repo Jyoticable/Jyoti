@@ -53,7 +53,7 @@ B-46/1, 1st 2nd & 3rd Floor, Jhilmil Industrial Area, Shahdara, Delhi-110095</p>
      EMAIL
       </h3>
       <p style={{"color":"#d82927"}}>
-      stanley@gmail.com
+      jyoticables7@gmail.com
       </p>
      </div>
 
