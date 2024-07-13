@@ -31,7 +31,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://server.jyoticables.in/submit', formData);
+            const response = await axios.post('https://server.jyoticables.in/submit', formData);
             console.log('Email sent:', response.data);
             
             setFormData({

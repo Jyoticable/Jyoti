@@ -1,20 +1,22 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const cors = require('cors')
-require('dotenv').config(); 
+const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
 const port = 4800;
 
 app.use(cors({
-    origin: ["https://jyoticables.in"],
-    credentials: false
-})) 
-
+    origin: "https://jyoticables.in",
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+app.options('/submit', cors()); // Enable pre-flight request for /submit
 
 app.post('/submit', (req, res) => {
     const { name, email, phone, city, country, subject, inquiry, message } = req.body;
@@ -22,7 +24,6 @@ app.post('/submit', (req, res) => {
     if (!name || !email || !phone || !city || !country || !subject || !inquiry || !message) {
         return res.status(400).send('All fields are required');
     }
-
 
     let transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -35,7 +36,6 @@ app.post('/submit', (req, res) => {
         }
     });
 
-   
     let mailOptions = {
         from: process.env.EMAIL,
         to: process.env.EMAIL,
